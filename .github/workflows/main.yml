@@ -11,7 +11,7 @@ on:
       - master
 
 env:
-  MONGODB_URI: mongodb://localhost:27017/testdb
+  MONGODB_URI: mongodb+srv://feryyuliarahman11:feryyuliarahman11@bookpost.bbko2.mongodb.net/book?retryWrites=true&w=majority&appName=BookPost
   NODE_ENV: test
   PORT: 4000
 
