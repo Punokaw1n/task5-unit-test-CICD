@@ -11,7 +11,7 @@ on:
       - master
 
 env:
-  MONGODB_URI: mongodb+srv://feryyuliarahman11:feryyuliarahman11@bookpost.bbko2.mongodb.net/book?retryWrites=true&w=majority&appName=BookPost
+  MONGODB_URI: mongodb://localhost:27017/testdb
   NODE_ENV: test
   PORT: 4000
 
@@ -21,7 +21,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [20.13.1]
+        node-version: [20.17.0]
         mongodb-version: ["5.0"]
 
     steps:
